@@ -133,4 +133,68 @@ DNSRecon is a Kali Linux reconnaissance tool used to enumerate DNS records and g
 dnsrecon -d networkwalks.com
 ```
 
+# 💡 What I Learned
+
+Through this project, I gained practical experience in website footprinting and reconnaissance using multiple tools available in Kali Linux.
+
+The most important concepts I learned include:
+
+### 1. Domain Registration Information
+
+I learned how to use WHOIS to retrieve publicly available domain registration details, including registrar information, registration dates, and name servers.
+
+### 2. Website Technology Fingerprinting
+
+I learned how to use WhatWeb to identify technologies running on a website, including web servers, content management systems (CMS), frameworks, and plugins.
+
+### 3. DNS Resolution
+
+I learned how to use NSLookup to query DNS servers and resolve domain names into their corresponding IP addresses.
+
+### 4. HTTP Response Header Analysis
+
+I learned how to use cURL to retrieve and analyze HTTP response headers, including server information, response status, cookies, and redirects.
+
+### 5. Web Application Firewall Detection
+
+I gained experience using WAFW00F to identify whether a website is protected by a Web Application Firewall (WAF).
+
+### 6. DNS Record Enumeration
+
+I learned how to use DNSRecon to enumerate DNS records, including name servers, mail servers, SPF, and TXT records.
+
+### 7. Reconnaissance and Information Gathering
+
+I developed a better understanding of how different reconnaissance tools work together to collect publicly available information and build an overview of a website's infrastructure.
+
+---
+
+# 🔐 Security & Ethical Use
+
+This project was conducted for educational purposes as part of the NetworkWalks cybersecurity training program. All reconnaissance activities were limited to the assigned target and authorized scope. Any further security testing must be performed only with explicit permission.
+
+---
+
+# 🔗 Tools & Resources
+
+- **WHOIS:** Domain registration lookup.
+- **WhatWeb:** Website technology fingerprinting.
+- **NSLookup:** DNS resolution.
+- **cURL:** HTTP response header analysis.
+- **WAFW00F:** Web Application Firewall detection.
+- **DNSRecon:** DNS record enumeration.
+- **Kali Linux:** [https://www.kali.org/get-kali/](https://www.kali.org/get-kali/)
+
+---
+
+# 👤 Author
+
+**Amon Alex**  
+Cybersecurity Student B084 | Electronics, Telecommunications & Cybersecurity
+
+**LinkedIn:** [Amon Alex](https://www.linkedin.com/in/amon-lowasa-60877a42a/)
+
+## 📌 Project Information
+
+**Program Name:** Cybersecurity at NetworkWalks | **Week:** 02 | **Project:** Footprinting & Reconnaissance Attacks with Multiple Kali Tools | **Repository:** GitHub
 
