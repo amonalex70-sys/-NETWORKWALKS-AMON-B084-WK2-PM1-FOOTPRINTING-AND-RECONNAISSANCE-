@@ -132,6 +132,22 @@ DNSRecon is a Kali Linux reconnaissance tool used to enumerate DNS records and g
 ```bash
 dnsrecon -d networkwalks.com
 ```
+# 🐞 Problems Encountered & Solutions
+
+Documenting troubleshooting steps helps improve the lab setup and provides a useful reference for future troubleshooting.
+
+## Problem 1: DNSRecon Timeout Error
+
+While performing DNS enumeration, DNSRecon returned a timeout error because the DNS server did not respond within the default 3-second timeout.
+
+**Solution:** Increased the DNS query timeout to 10 seconds using the `--lifetime` option, allowing more time for the DNS server to respond.
+
+**Command:**
+
+```bash
+dnsrecon -d networkwalks.com --lifetime 10
+```
+
 
 # 💡 What I Learned
 
