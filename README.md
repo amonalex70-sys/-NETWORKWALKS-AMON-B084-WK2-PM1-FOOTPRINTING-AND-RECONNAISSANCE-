@@ -88,7 +88,8 @@ WHOIS is a command-line tool used to retrieve publicly available domain registra
 ```bash
 whois networkwalks.com
 ```
-<img width="1319" height="767" alt="Whois" src="https://github.com/user-attachments/assets/d9af357e-1872-46ba-b306-480167c52c0a" />
+
+<img width="1330" height="791" alt="whois" src="https://github.com/user-attachments/assets/f3dff2b5-3570-4373-b82d-55c08350ed8b" />
 
 
 ## Step 4: WhatWeb – Website Technology Fingerprinting
