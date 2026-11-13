@@ -69,9 +69,15 @@ The lab covers the following activities:
 
 Start the Kali Linux 2026.3 VM in VirtualBox, log in, and verify that the desktop loads successfully.
 
+<img width="1319" height="767" alt="kali initalization" src="https://github.com/user-attachments/assets/211bc0e6-fc2f-4d89-8a17-e294a845b566" />
+
+
 ## Step 2: Launch the Kali Linux Terminal
 
 Launch the terminal from the Kali Linux desktop and verify that the command prompt is ready.
+
+<img width="1319" height="767" alt="Kali terminal" src="https://github.com/user-attachments/assets/598e3004-2199-46e7-9139-cdfce4f2347a" />
+
 
 ## Step 3: WHOIS – Domain Registration Lookup
 
@@ -82,6 +88,8 @@ WHOIS is a command-line tool used to retrieve publicly available domain registra
 ```bash
 whois networkwalks.com
 ```
+<img width="1319" height="767" alt="Whois" src="https://github.com/user-attachments/assets/d9af357e-1872-46ba-b306-480167c52c0a" />
+
 
 ## Step 4: WhatWeb – Website Technology Fingerprinting
 
@@ -92,6 +100,8 @@ WhatWeb is a Kali Linux reconnaissance tool used to identify technologies runnin
 ```bash
 whatweb networkwalks.com
 ```
+<img width="1319" height="767" alt="whatweb" src="https://github.com/user-attachments/assets/1dc5f65b-f455-464d-a849-6908a4caefdf" />
+
 
 ## Step 5: NSLookup – Domain Name Resolution
 
@@ -103,6 +113,9 @@ NSLookup is a command-line tool used to query DNS servers and retrieve domain in
 nslookup networkwalks.com
 ```
 
+<img width="1319" height="767" alt="nslookup" src="https://github.com/user-attachments/assets/07bda450-75b4-4b07-b0ce-5ffd595d1737" />
+
+
 ### Step 6: cURL – HTTP Response Header Analysis
 
 cURL is a command-line tool used to retrieve HTTP response headers from a website, revealing information such as server details, response status, cookies, and redirects.
@@ -112,6 +125,9 @@ cURL is a command-line tool used to retrieve HTTP response headers from a websit
 ```bash
 curl -I https://networkwalks.com
 ```
+
+<img width="1319" height="767" alt="curl -i" src="https://github.com/user-attachments/assets/6fb29e1f-91cc-47cf-a1dd-10c3088ef966" />
+
 
 ## Step 7: WAFW00F – Web Application Firewall Detection
 
@@ -123,6 +139,9 @@ WAFW00F is a Kali Linux reconnaissance tool used to identify whether a website i
 wafw00f https://networkwalks.com
 ```
 
+<img width="1319" height="767" alt="wafw00f" src="https://github.com/user-attachments/assets/68483a6d-fea2-4992-b120-2065bdab4e2f" />
+
+
 ## Step 8: DNSRecon – DNS Record Enumeration
 
 DNSRecon is a Kali Linux reconnaissance tool used to enumerate DNS records and gather information about a domain's DNS infrastructure, including name servers, mail servers, and TXT records.
@@ -132,6 +151,8 @@ DNSRecon is a Kali Linux reconnaissance tool used to enumerate DNS records and g
 ```bash
 dnsrecon -d networkwalks.com
 ```
+
+
 # 🐞 Problems Encountered & Solutions
 
 Documenting troubleshooting steps helps improve the lab setup and provides a useful reference for future troubleshooting.
