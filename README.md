@@ -80,7 +80,7 @@ WHOIS is a command-line tool used to retrieve publicly available domain registra
 **Command:**
 
 ```bash
-whois <target-domain>
+whois networkwalks.com
 ```
 
 ## Step 4: WhatWeb – Website Technology Fingerprinting
@@ -90,7 +90,7 @@ WhatWeb is a Kali Linux reconnaissance tool used to identify technologies runnin
 **Command:**
 
 ```bash
-whatweb <target-domain>
+whatweb networkwalks.com
 ```
 
 ## Step 5: NSLookup – Domain Name Resolution
