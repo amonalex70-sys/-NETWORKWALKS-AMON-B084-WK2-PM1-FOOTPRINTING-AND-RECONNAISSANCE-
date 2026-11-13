@@ -27,7 +27,7 @@ This project focuses on performing website footprinting and reconnaissance using
 The practical exercises demonstrate how reconnaissance tools help identify publicly exposed information and understand a website's infrastructure as part of the initial phase of cybersecurity assessment.
 NetworkWalks project focused on website footprinting and reconnaissance using multiple Kali Linux tools.
 
-## Lab Objectives
+## 🎯 Lab Objectives
 
 - Perform domain footprinting using WHOIS to identify registration information.
 - Identify website technologies using WhatWeb.
@@ -37,7 +37,7 @@ NetworkWalks project focused on website footprinting and reconnaissance using mu
 - Enumerate DNS records using DNSRecon.
 - Understand how reconnaissance helps identify publicly exposed information about a website.
 
-## Lab Purpose and Security Scope
+## 🛡️ Lab Purpose and Security Scope
 
 This lab provides a practical environment for learning website footprinting and reconnaissance using multiple Kali Linux tools. It focuses on gathering and analyzing publicly available information about `networkwalks.com` to understand its domain registration, IP addressing, web technologies, HTTP headers, firewall protection, and DNS infrastructure.
 
@@ -65,10 +65,72 @@ The lab covers the following activities:
 
 ## ⚙️ Cybersecurity Lab Setup Steps
 
-1. Start the existing Kali Linux 2026.3 virtual machine in Oracle VirtualBox.
-2. Log in to the Kali Linux environment.
-3. Open the terminal.
-4. Verify the availability of the required reconnaissance tools.
-5. Ensure that the virtual machine has an active internet connection.
-6. Prepare the terminal for the six footprinting and reconnaissance tasks.
-7. Begin gathering publicly available information about `networkwalks.com` using the specified Kali Linux tools.
+## Step 1: Initialize the Kali Linux Virtual Machine
+
+Start the Kali Linux 2026.3 VM in VirtualBox, log in, and verify that the desktop loads successfully.
+
+## Step 2: Launch the Kali Linux Terminal
+
+Launch the terminal from the Kali Linux desktop and verify that the command prompt is ready.
+
+## Step 3: WHOIS – Domain Registration Lookup
+
+WHOIS is a command-line tool used to retrieve publicly available domain registration information, including registrar details, registration dates, and name servers.
+
+**Command:**
+
+```bash
+whois <target-domain>
+```
+
+## Step 4: WhatWeb – Website Technology Fingerprinting
+
+WhatWeb is a Kali Linux reconnaissance tool used to identify technologies running on a website, including web servers, content management systems (CMS), frameworks, and plugins.
+
+**Command:**
+
+```bash
+whatweb <target-domain>
+```
+
+## Step 5: NSLookup – Domain Name Resolution
+
+NSLookup is a command-line tool used to query DNS servers and retrieve domain information, including corresponding IP addresses.
+
+**Command:**
+
+```bash
+nslookup networkwalks.com
+```
+
+### Step 6: cURL – HTTP Response Header Analysis
+
+cURL is a command-line tool used to retrieve HTTP response headers from a website, revealing information such as server details, response status, cookies, and redirects.
+
+**Command:**
+
+```bash
+curl -I https://networkwalks.com
+```
+
+## Step 7: WAFW00F – Web Application Firewall Detection
+
+WAFW00F is a Kali Linux reconnaissance tool used to identify whether a website is protected by a Web Application Firewall (WAF) and detect its type.
+
+**Command:**
+
+```bash
+wafw00f https://networkwalks.com
+```
+
+## Step 8: DNSRecon – DNS Record Enumeration
+
+DNSRecon is a Kali Linux reconnaissance tool used to enumerate DNS records and gather information about a domain's DNS infrastructure, including name servers, mail servers, and TXT records.
+
+**Command:**
+
+```bash
+dnsrecon -d networkwalks.com
+```
+
+
